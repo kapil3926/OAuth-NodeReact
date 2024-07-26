@@ -1,30 +1,86 @@
-# React + TypeScript + Vite
+### Usage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template demonstrates the use of OAuth 2.0 with React and Node.
 
-Currently, two official plugins are available:
+### Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js and npm
 
-## Expanding the ESLint configuration
+### 1. Setting Up the Frontend (React + TypeScript)`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Install the dependencies:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   npm install
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Specify the Required env variables in .env file for client
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Start the React development server:
+   ```bash
+   npm run dev
+   ```
+
+### 2. Setting Up the Backend (Node.js)
+
+1. Navigate to the `server` directory:
+
+   ```bash
+   cd server
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Specify the Required env variables in .env file
+
+4. Start the Node.js server:
+   ```bash
+   npm run start
+   ```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (or yarn)
+- A code editor (e.g., VSCode)
+
+### 1. Setting Up the Frontend (React + TypeScript)`
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Specify the Required env variables in .env file for client
+
+4. Start the React development server:
+   ```bash
+   npm run dev
+   ```
+
+### 2. Setting Up the Backend (Node.js)
+
+1. Navigate to the `server` directory:
+
+   ```bash
+   cd server
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Specify the Required env variables in .env file
+
+4. Start the Node.js server:
+   ```bash
+   npm run start
+   ```
